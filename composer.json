@@ -2,6 +2,7 @@
     "name": "fromholdio/phpstan-non-nullable-sink-rules",
     "type": "phpstan-extension",
     "description": "PHPStan rules for values that are not proven safe at non-nullable PHP-owned sinks.",
+    "homepage": "https://github.com/fromholdio/phpstan-non-nullable-sink-rules",
     "license": "MIT",
     "keywords": [
         "phpstan",
@@ -17,6 +18,10 @@
     "require-dev": {
         "phpunit/phpunit": "^10.5",
         "phpstan/phpstan-phpunit": "^2.0"
+    },
+    "support": {
+        "issues": "https://github.com/fromholdio/phpstan-non-nullable-sink-rules/issues",
+        "source": "https://github.com/fromholdio/phpstan-non-nullable-sink-rules"
     },
     "autoload": {
         "psr-4": {
