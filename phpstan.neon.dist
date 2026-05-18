@@ -1,0 +1,14 @@
+includes:
+    - vendor/phpstan/phpstan-phpunit/extension.neon
+    - extension.neon
+
+parameters:
+    level: 9
+    paths:
+        - src
+        - tests
+    excludePaths:
+        analyse:
+            - tests/Rules/data/*
+    checkExplicitMixed: false
+    checkImplicitMixed: false

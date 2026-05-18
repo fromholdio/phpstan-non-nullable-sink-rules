@@ -1,0 +1,17 @@
+services:
+    -
+        class: Fromholdio\PHPStanNonNullableSinkRules\Sink\ArrayKeySinkDetector
+
+    -
+        class: Fromholdio\PHPStanNonNullableSinkRules\Sink\InternalFunctionArgumentSinkDetector
+
+    -
+        class: Fromholdio\PHPStanNonNullableSinkRules\Sink\SinkTypeChecker
+
+    -
+        class: Fromholdio\PHPStanNonNullableSinkRules\Error\RuleErrorFactory
+
+    -
+        class: Fromholdio\PHPStanNonNullableSinkRules\Rules\UnsafeValueForNonNullableSinkRule
+        tags:
+            - phpstan.rules.rule
