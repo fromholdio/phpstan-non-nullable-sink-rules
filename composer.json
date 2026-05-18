@@ -3,7 +3,7 @@
     "type": "phpstan-extension",
     "description": "PHPStan rules for values that are not proven safe at non-nullable PHP-owned sinks.",
     "homepage": "https://github.com/fromholdio/phpstan-non-nullable-sink-rules",
-    "license": "MIT",
+    "license": "BSD-3-Clause",
     "keywords": [
         "phpstan",
         "phpstan-extension",

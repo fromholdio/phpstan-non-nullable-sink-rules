@@ -198,4 +198,4 @@ composer validate --strict
 
 ## License
 
-MIT.
+BSD-3-Clause.
