@@ -161,7 +161,7 @@ The package intentionally does not include:
 - WordPress-aware source modelling.
 - Special handling for `filter_input()`.
 - Hook-aware analysis for `do_action()` or `apply_filters()`.
-- Project-specific severity or release-gate policy.
+- Project-specific severity or release policy.
 
 Those decisions belong in consuming projects or higher-level workflows.
 

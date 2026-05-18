@@ -1,6 +1,6 @@
 # Agent Instructions
 
-This repository is a standalone PHPStan extension package. Keep changes focused on the extension itself; do not add `wp-plugin-curator` integration or project-specific release policy here.
+This repository is a standalone PHPStan extension package. Keep changes focused on the extension itself; do not add consuming-project integrations or project-specific release policy here.
 
 ## Package Conventions
 
@@ -33,7 +33,3 @@ vendor/bin/phpstan analyse --error-format=raw
 ```
 
 For packaging or installation changes, also verify path-repository usage from a separate throwaway Composer project.
-
-## Publishing
-
-Do not tag a release or register/update Packagist unless Luke explicitly approves that step.
